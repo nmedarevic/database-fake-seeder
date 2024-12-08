@@ -1,0 +1,3 @@
+[submodule "db/goose"]
+	path = db/goose
+	url = https://github.com/pressly/goose
