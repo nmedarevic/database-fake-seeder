@@ -1,0 +1,4 @@
+- create a user
+- define permissions for that user
+- insert 1M users
+- insert users in parallel
