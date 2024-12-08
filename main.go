@@ -20,7 +20,6 @@ func main() {
 			return
 		}
 
-
 		// Retrieve environment variable with existence check
 		dbUrl, exists := os.LookupEnv("DB_URL")
 		if !exists {
@@ -43,7 +42,7 @@ func main() {
 		 fmt.Println("Successfully connected to PostgreSQL database!")
  
 		 // Example of a simple query
-		 rows, err := db.Query("SELECT id, name FROM users LIMIT 5")
+		 rows, err := db.Query("SELECT id, username FROM \"user\" LIMIT 5")
 		 if err != nil {
 				 log.Fatal(err)
 		 }
