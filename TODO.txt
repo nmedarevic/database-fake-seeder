@@ -2,3 +2,8 @@
 - define permissions for that user
 - insert 1M users
 - insert users in parallel
+- Create a Github CI
+  - On every commit:
+    - Deploy to a server
+    - Set up a fresh db
+    - insert dummy data
